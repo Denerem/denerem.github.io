@@ -1,0 +1,39 @@
+body {
+    background: #466368;
+    background: linear-gradient(#4772ffd2, #a6f3c6e3);
+    height: 705px;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+#name {
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    color: #53f08f93;
+  text-shadow: 0 0 0.5em #87F, 0 0 0.5em #87F, 0 0 0.5em #87F;
+    /* background: #ffffff3b; */
+    background: #466368;
+    background: linear-gradient(#01061475, #fae63685);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+    box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.548);
+    transition: all 1s;
+    opacity: 3;
+
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    cursor: none;
+}
