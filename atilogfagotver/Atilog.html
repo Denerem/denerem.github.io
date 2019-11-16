@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="css.css">
+	<title>Atilog</title>
+	<style>
+		html,
+		body {
+		  margin: 0;
+		  padding: 0;
+		  width: 100%;
+		  height: 100%;
+		}
+	
+		#prompt-form {
+		  display: inline-block;
+		  padding: 5px 5px 5px 70px;
+		  width: 380px;
+		  border: 1px solid black;
+		  border-radius: 15px;
+		  background-image: url(2.jpg);
+		  vertical-align: middle;
+		}
+	
+		#prompt-form-container {
+		  position: fixed;
+		  top: 0;
+		  left: 0;
+		  z-index: 9999;
+		  display: none;
+		  width: 100%;
+		  height: 100%;
+		  text-align: center;
+		}
+	
+		#prompt-form-container:before {
+		  display: inline-block;
+		  height: 100%;
+		  content: '';
+		  vertical-align: middle;
+		}
+	
+		#cover-div {
+		  position: fixed;
+		  top: 0;
+		  left: 0;
+		  z-index: 9000;
+		  width: 100%;
+		  height: 100%;
+		  background-color: rgb(92, 109, 206);
+		  opacity: 0.5;
+		}
+	
+		p {
+		  font-size: 80px;
+		  color: rgb(72, 255, 0);
+		  font-weight: bolder;
+		  text-align: center;
+		  padding-top: 185px;
+		  text-shadow: 0 0 20px rgb(0, 0, 0);
+		  margin-top: 95px;
+		  margin-bottom: 0px;
+		}
+	
+		#prompt-form>input[type=submit]:nth-child(2) {
+		  font-size: 22px;
+		  color: rgb(0, 0, 0);
+		  background: #f5f5f5cb;
+		  border-radius: 8px;
+		  border: 1px solid rgba(0, 0, 0, 0.521);
+		  box-shadow: 4px 7px 10px grey;
+		  transition: all 1s;
+		  opacity: 3;
+		  padding: 10px;
+		  margin-left: -39px;
+		}
+	
+		#prompt-form>input[type=button]:nth-child(3) {
+		  font-size: 22px;
+		  color: rgb(0, 0, 0);
+		  background: #f5f5f5cb;
+		  border-radius: 8px;
+		  border: 1px solid rgba(0, 0, 0, 0.521);
+		  box-shadow: 4px 7px 10px grey;
+		  transition: all 1s;
+		  opacity: 3;
+		  padding: 10px;
+		}
+	  </style>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="headerMain">
+				<ul class="headerMainList">
+					<li>
+						<a href="" src="">Услуги</a>
+					</li>
+					<li>
+						<a href="" src="">О Нас</a>
+					</li>
+					<li>
+						<a href="" src="">Портфолио</a>
+					</li>
+					<li>
+						<a href="" src="">С чем работаем</a>
+					</li>
+					<li>
+						<a href="" src="">Контакты</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div id="prompt-form-container">
+		<form id="prompt-form">
+		  <div id="prompt-message"></div>
+		  <!-- <input name="text" type="text"> -->
+		  <input type="submit" value="Согласен">
+		  <input type="button" name="cancel" value="Отмена">
+		</form>
+	  </div>
+	<div class="container">
+		<div class="banner">
+			<img src="atilog.jpg" alt="">
+		</div>
+	</div>
+
+	<div class="container">
+		<div>
+			<div class="mainText">
+				<ul class="mainList">
+					<li>Портфолио
+					</li>
+					<li>
+						<hr>
+					</li>
+				</ul>
+			</div>
+			<div id="dataCont" class="clearfix">
+				<div class="redContainer">
+					<h3>"NEQUE PORRO QUIAQUAM EST QUI DOLOREM IPAUM QUIA DOLOR SIT AMET, CONSECTETUR, ADEPISCI VELIT..."
+					</h3>
+					<span class="textWhite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolor illo
+						voluptas
+						fugit
+						cumque iure labore, exercitationem temporibus, perferendis ea corporis qui, praesentium quo?
+						Earum esse veritatis modi atque incidunt!</span>
+				</div>
+				<div id="text2">
+					<h3>01</h3>
+					<span class="">Cras at pretium nisl, a elementum sel</span>
+				</div>
+			</div>
+			<div id="lines" class="clearfix">
+				<div id="text3">
+					<h3>02</h3>
+					<span class="">Cras at pretium nisl, a elementum sel</span>
+				</div>
+				<div id="text3">
+					<h3>03</h3>
+					<span class="">Cras at pretium nisl, a elementum sel</span>
+				</div>
+				<div id="text3">
+					<h3>04</h3>
+					<span class="">Cras at pretium nisl, a elementum sel</span>
+				</div>
+			</div>
+			<div id="lines" class="clearfix">
+				<div id="text3">
+					<h3>05</h3>
+					<span class="">Cras at pretium nisl, a elementum sel</span>
+				</div>
+				<div id="text3">
+					<h3>06</h3>
+					<span class="">Cras at pretium nisl, a elementum sel</span>
+				</div>
+				<div id="text3">
+					<h3>07</h3>
+					<span class="">Cras at pretium nisl, a elementum sel</span>
+				</div>
+			</div>
+			<div id="lines" class="clearfix">
+				<div id="text3">
+					<h3>08</h3>
+					<span class="">Cras at pretium nisl, a elementum sel</span>
+				</div>
+				<div id="text3">
+					<h3>09</h3>
+					<span class="">Cras at pretium nisl, a elementum sel</span>
+				</div>
+				<div id="text3">
+					<h3>10</h3>
+					<span class="">Cras at pretium nisl, a elementum sel</span>
+				</div>
+			</div>
+			<div class="mainEnd"></div>
+			</main>
+		</div>
+
+		<footer></footer>
+		<script>
+			function showCover() {
+			  let coverDiv = document.createElement('div');
+			  coverDiv.id = 'cover-div';
+		
+		
+			  document.body.style.overflowY = 'hidden';
+		
+			  document.body.append(coverDiv);
+			}
+		
+			function hideCover() {
+			  document.getElementById('cover-div').remove();
+			  document.body.style.overflowY = '';
+			}
+		
+			function showPrompt(text, callback) {
+			  showCover();
+			  let form = document.getElementById('prompt-form');
+			  let container = document.getElementById('prompt-form-container');
+			  document.getElementById('prompt-message').innerHTML = text;
+		
+		
+			  function complete(value) {
+				hideCover();
+				container.style.display = 'none';
+				document.onkeydown = null;
+				callback(value);
+			  }
+		
+			  form.onsubmit = function () {
+				let value = form.text.value;
+				if (value == '') return false;
+		
+				complete(value);
+				return false;
+			  };
+		
+			  form.cancel.onclick = function () {
+				return false;
+			  };
+		
+			  document.onkeydown = function (e) {
+				if (e.key == 'Escape') {
+				  return false;
+				}
+			  };
+		
+			  let lastElem = form.elements[form.elements.length - 1];
+			  let firstElem = form.elements[0];
+		
+			  lastElem.onkeydown = function (e) {
+				if (e.key == 'Tab' && !e.shiftKey) {
+				  firstElem.focus();
+				  return false;
+				}
+			  };
+		
+			  firstElem.onkeydown = function (e) {
+				if (e.key == 'Tab' && e.shiftKey) {
+				  lastElem.focus();
+				  return false;
+				}
+			  };
+		
+			  container.style.display = 'block';
+			}
+		
+		
+			document.onkeydown = function (e) {
+			  e = e || window.event;
+			  if (e.shiftKey && e.keyCode == 65) {
+				showPrompt("<p>Ты пидор!</p>", function (value) {});
+			  }
+			  return true;
+			}
+		  </script>
+</body>
+
+</html>
